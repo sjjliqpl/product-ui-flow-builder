@@ -24,8 +24,11 @@ The skill defines the architecture and modification rules. It must not carry reu
 3. If `ui-flow-design/` does not exist, run:
 
 ```bash
-python3 /Users/viper/.codex/skills/product-ui-flow-builder/scripts/create_flow_project.py
+python3 scripts/create_flow_project.py
 ```
+
+When this repository is installed as a Codex skill, resolve the script from the
+skill root directory rather than from a machine-specific absolute path.
 
 4. If `ui-flow-design/` exists but is not a recognizable React project, stop and report the directory conflict. Do not overwrite it.
 5. Treat `assets/react-tailwind-flow-template/` as a minimal runnable React shell only. It may include one neutral sample page that proves navigation, active-page rendering, and the mobile drawer. It must not contain product examples, demo flows, or business-specific mockups.

@@ -32,6 +32,13 @@ The project is meant for design exploration and product review, not production a
 
 ## Quick Start
 
+From a clone of this repository, run:
+
+```bash
+git clone https://github.com/sjjliqpl/product-ui-flow-builder.git
+cd product-ui-flow-builder
+```
+
 Create a new UI flow design project from the template:
 
 ```bash
@@ -39,6 +46,8 @@ python3 scripts/create_flow_project.py
 ```
 
 The script creates `ui-flow-design/` in the current working directory. If that directory already exists and looks like a React project, the script leaves it in place. If it exists but is not a recognized React project, the script refuses to overwrite it.
+
+When the repository is installed as a Codex skill, the script path should be resolved from the installed skill root. Do not hard-code a local machine path.
 
 Run the template locally:
 
