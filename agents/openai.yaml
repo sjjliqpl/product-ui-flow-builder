@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product UI Flow Builder"
+  short_description: "Build navigable React UI flow prototypes"
+  default_prompt: "Use $product-ui-flow-builder to create a componentized React UI flow prototype."
