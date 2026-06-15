@@ -1,6 +1,6 @@
 # Product UI Flow Builder
 
-[中文 README](./README.zh-CN.md)
+[中文](./README.zh-CN.md)
 
 Product UI Flow Builder is a Codex skill for creating product UI flow design documents as maintainable React projects. It turns a product-flow request into a Vite + React + TypeScript + Tailwind design board with a persistent page tree, a compact product explanation panel, and one active page sketch at a time.
 

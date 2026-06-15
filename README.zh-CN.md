@@ -1,6 +1,6 @@
 # Product UI Flow Builder
 
-[English README](./README.md)
+[English](./README.md)
 
 Product UI Flow Builder 是一个 Codex skill，用来把产品 UI 流程需求生成可维护的 React 设计文档项目。它会把产品页面组织成左侧树形导航，中间展示当前页面草图，旁边保留紧凑的产品说明、页面逻辑、状态和备注。
 
